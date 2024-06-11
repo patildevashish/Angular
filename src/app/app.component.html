@@ -1,0 +1,8 @@
+<app-custom-button
+  (onButtonTap)="onSignUp($event)"
+  [customButtonProps]="{ btnText: 'Sign Up', isOutline: false, bgColor: 'bg-neutral-900', radius: 'rounded-full', textSize: ' ' }"
+></app-custom-button>
+<app-custom-button
+  (onButtonTap)="onContinue($event)"
+  [customButtonProps]="{ btnText: 'Continue', isOutline: true, bgColor: 'bg-teal-500', radius: '', textSize: ' ' }"
+></app-custom-button>
